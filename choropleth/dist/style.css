@@ -1,0 +1,35 @@
+body {
+  padding: 0;
+  margin: 0;
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+
+#tooltip {
+  position: absolute;
+  padding: 10px;                
+  font: 12px Arial;        
+  background: grey;
+  color:white;
+  box-shadow: 1px 1px 10px rgba(128, 128, 128, 0.6);
+  border: 0px;        
+  border-radius: 2px;            
+  pointer-events: none;            
+}
+
+.states {
+  fill: none;
+  stroke: #fff;
+  stroke-linejoin: round;
+}
+
+h1{
+  text-align:center
+}
+
+#description{
+  text-align:center
+}
